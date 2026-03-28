@@ -48,7 +48,9 @@ export default defineConfig((ctx) => {
       // analyze: true,
       env: {
         FRONT_URI: ctx.dev ? 'http://localhost:9000' : 'https://redirvault.netlify.app',
-        MY_API_REST: ctx.dev ? 'http://localhost:5000/api/v1' : '',
+        MY_API_REST: ctx.dev
+          ? 'http://localhost:5000/api/v1'
+          : 'https://redirvault-be.onrender.com',
       },
       // rawDefine: {}
       // ignorePublicFolder: true,
