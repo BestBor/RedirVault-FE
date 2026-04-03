@@ -1,40 +1,32 @@
-# Quasar App (api-rest-mevn-frontend)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c36f75f7-1bd5-4f39-a5af-2469c4a1b289/deploy-status)](https://app.netlify.com/projects/redirvault/deploys)
 
-A Quasar Project
+---
 
-## Install the dependencies
+# RedirVault — Frontend
+
+Frontend of RedirVault, a multi-user URL shortener platform built with Vue.js, Quasar Framework, and Pinia.
+
+## Tech Stack
+
+- Vue.js 3
+- Quasar Framework v2
+- Pinia (state management)
+- Axios
+
+## Related
+
+- [RedirVault Backend](https://github.com/BestBor/RedirVault-BE)
+- [Live Demo](https://redirvault.netlify.app)
+
+## Setup
+
 ```bash
 yarn
-# or
-npm install
+yarn dev
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+## Build
 
-
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
-
-
-### Build the app for production
 ```bash
 quasar build
 ```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
