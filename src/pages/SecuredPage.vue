@@ -1,3 +1,3 @@
 <template>
-  <h3>Ruta protegida</h3>
+  <h3>Secure Page</h3>
 </template>
